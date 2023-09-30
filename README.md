@@ -1,8 +1,6 @@
 # Compatibility
 This gateway tested agianst WHMCS 7.10.2 and 8.1.3 with six template.
 
-It's hard-coded in Persian language and RTL layout.
-
 # HOWTO Install
 1. Upload content of this repository to whmcs.
 2. Import `database.sql` into the WHMCS database and it's better to remove it after that.

@@ -1,0 +1,32 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-gateways",
+    "name": "binance",
+    "license": "proprietary",
+    "category": "payments",
+    "description": {
+        "name": "Sample Third Party Payment Gateway Module",
+        "tagline": "Payment Gateway modules allow you to integrate payment solutions with the WHMCS platform.",
+        "long": "The sample files here demonstrate how we suggest a Third Party Payment Gateway module for WHMCS be structured and implemented.",
+        "features": [
+            "Provide both client and admin facing user interfaces",
+            "Utilize hook functionality within WHMCS"
+        ]
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "homepage": "https:\/\/www.binance.com\/", 
+        "email": "support@whmcs.com", 
+        "support_url": "https:\/\/www.binance.com\/en\/support",
+        "docs_url": "https:\/\/binance-docs.github.io\/apidocs\/"
+    },
+    "authors": [
+        {
+            "name": "DNJ",
+            "homepage": "https:\/\/www.jeyserver.com\/"
+        }
+    ]
+}
+

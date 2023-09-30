@@ -1,0 +1,64 @@
+.binance-crypto-payment-container {
+	width: 50%;
+	margin: 0 auto;
+}
+.binance-crypto-payment-container .label {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.binance-crypto-payment-container .ltr {
+	direction: ltr;
+	text-align: left;
+	font-family: sans-serif;
+}
+.binance-crypto-payment-container span.ltr {
+	display: inline-block;
+}
+.binance-crypto-payment-container h2 {
+	text-align: center;
+}
+.binance-crypto-payment-container .binance-crypto-payment-step {
+	display: none;
+}
+#binance-crypto-payment-step1 {
+	overflow: hidden;
+}
+#binance-crypto-payment-step1 .qr-code {
+	float: left;
+}
+#binance-crypto-payment-step1 .instructions {
+	float: right;
+	width: calc(100% - 170px);
+}
+#binance-crypto-payment-step1 .instructions .alert {
+	margin: 10px 0;
+}
+#binance-crypto-payment-step1 input[readonly] {
+	background-color: #fff;
+}
+
+#binance-crypto-payment-step2 {
+	overflow: hidden;
+}
+#binance-crypto-payment-step2 .qr-code {
+	float: left;
+}
+#binance-crypto-payment-step2 .instructions {
+	float: right;
+	width: calc(100% - 170px);
+}
+#binance-crypto-payment-step2 .instructions .alert {
+	margin: 10px 0;
+}
+.table-transaction {
+	width: 75%;
+	margin: 20px auto;
+}
+.icon-spinner {
+	font-size: 4em;
+	text-align: center;
+}
+.icon-success {
+	font-size: 4em;
+	text-align: center;
+}
